@@ -1,0 +1,41 @@
+{
+    "weixin": {
+        "_all": {
+            "analyzer": "ik_smart",
+            "search_analyzer": "ik_smart",
+            "store": true
+        },
+        "properties": {
+            "url": {
+                "type": "string"
+            },
+            "title": {
+                "type": "string",
+                "analyzer": "ik_smart",
+                "search_analyzer": "ik_smart",
+                "store": true
+            },
+            "postdate": {
+                "type": "string"
+            },
+            "order": {
+                "type": "string"
+            },
+            "count": {
+                "type": "string"
+            },
+            "like": {
+                "type": "string"
+            },
+            "nickname": {
+                "type": "string"
+            },
+            "context": {
+                "type": "string",
+                "analyzer": "ik_smart",
+                "search_analyzer": "ik_smart",
+                "store": true
+            }
+        }
+    }
+}

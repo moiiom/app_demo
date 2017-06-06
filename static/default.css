@@ -1,0 +1,27 @@
+.item {
+    margin: auto;
+    width: 800px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+a:active {
+    text-decoration: blink;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red
+}
+
+a:visited {
+    text-decoration: none;
+    color: green
+}
+
+span {
+    margin-left: 20px;
+}
